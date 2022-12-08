@@ -21,3 +21,11 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+private_key
+public_key
+qr.png
+encrypted
+generateKeyPair.js
+decrypt.js
+encrypt.js

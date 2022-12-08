@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
+import Encrypt from "./encrypt/Encrypt";
+import RedirectTo from "./RedirectTo";
+import Decode from "./decode/Decode";
+import SetKey from "./SetKey";
+import "./global.css";
+
+const router = createBrowserRouter([
+  {
+    path: "/cryptobby",
+    element: <RedirectTo path="/cryptobby/encrypt" />,
+  },
+  {
+    path: "/cryptobby/msg/:msg",
+    element: <Decode />,
+  },
+  {
+    path: "/cryptobby/encrypt",
+    element: <Encrypt />,
+  },
+  {
+    path: "/cryptobby/setkey/:key",
+    element: <SetKey />,
+  },
+]);
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

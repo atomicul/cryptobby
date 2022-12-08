@@ -5,8 +5,8 @@ import Cookies from "js-cookie";
 
 const SetKey = () => {
     const { key } = useParams();
-    Cookies.set("key", key, { expires: 365, path: "/" });
-    return <RedirectTo path="/cryptobby/encrypt" />;
+    Cookies.set("key", key, { expires: 365, path: "/cryptobby" });
+    return <RedirectTo path="/encrypt" />;
 };
 
 export default SetKey;

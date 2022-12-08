@@ -10,8 +10,8 @@ const encrypt = (msg) => {
   const keyBase64 = publicKey;
   const key = new NodeRSA(Buffer.from(keyBase64, "base64"), "pkcs8-public-der");
   return (
-    "https://atomicul.github.io/cryptobby/msg/" +
-    // "http://localhost:3000/cryptobby/msg/" +
+    // "https://atomicul.github.io/cryptobby/#/msg/" +
+    "http://localhost:3000/cryptobby/#/msg/" +
     encodeURIComponent(key.encrypt(Buffer.from(msg), "base64"))
   );
 };

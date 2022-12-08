@@ -1,28 +1,28 @@
-import { createHashRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Encrypt from "./encrypt/Encrypt";
 import RedirectTo from "./RedirectTo";
 import Decode from "./decode/Decode";
 import SetKey from "./SetKey";
 import "./global.css";
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
-    path: "/cryptobby",
-    element: <RedirectTo path="/cryptobby/encrypt" />,
+    path: "/",
+    element: <RedirectTo path="/encrypt" />,
   },
   {
-    path: "/cryptobby/msg/:msg",
+    path: "/msg/:msg",
     element: <Decode />,
   },
   {
-    path: "/cryptobby/encrypt",
+    path: "/encrypt",
     element: <Encrypt />,
   },
   {
-    path: "/cryptobby/setkey/:key",
+    path: "/setkey/:key",
     element: <SetKey />,
   },
-]);
+], {basename: '/cryptobby'});
 
 function App() {
   return <RouterProvider router={router} />;

@@ -1,5 +1,5 @@
-import { useNavigate, useParams } from "react-router";
-import React, { useEffect } from "react";
+import { useParams } from "react-router";
+import React from "react";
 import RedirectTo from "./RedirectTo";
 import Cookies from "js-cookie";
 

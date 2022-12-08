@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/cryptobby/static/css/main.1a8aded3.chunk.css",
-    "main.js": "/cryptobby/static/js/main.d6e2455a.chunk.js",
-    "main.js.map": "/cryptobby/static/js/main.d6e2455a.chunk.js.map",
+    "main.js": "/cryptobby/static/js/main.3e42fd64.chunk.js",
+    "main.js.map": "/cryptobby/static/js/main.3e42fd64.chunk.js.map",
     "runtime-main.js": "/cryptobby/static/js/runtime-main.34e08a22.js",
     "runtime-main.js.map": "/cryptobby/static/js/runtime-main.34e08a22.js.map",
-    "static/js/2.89f8c188.chunk.js": "/cryptobby/static/js/2.89f8c188.chunk.js",
-    "static/js/2.89f8c188.chunk.js.map": "/cryptobby/static/js/2.89f8c188.chunk.js.map",
+    "static/js/2.2d6f0cb0.chunk.js": "/cryptobby/static/js/2.2d6f0cb0.chunk.js",
+    "static/js/2.2d6f0cb0.chunk.js.map": "/cryptobby/static/js/2.2d6f0cb0.chunk.js.map",
     "index.html": "/cryptobby/index.html",
     "static/css/main.1a8aded3.chunk.css.map": "/cryptobby/static/css/main.1a8aded3.chunk.css.map",
-    "static/js/2.89f8c188.chunk.js.LICENSE.txt": "/cryptobby/static/js/2.89f8c188.chunk.js.LICENSE.txt"
+    "static/js/2.2d6f0cb0.chunk.js.LICENSE.txt": "/cryptobby/static/js/2.2d6f0cb0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.34e08a22.js",
-    "static/js/2.89f8c188.chunk.js",
+    "static/js/2.2d6f0cb0.chunk.js",
     "static/css/main.1a8aded3.chunk.css",
-    "static/js/main.d6e2455a.chunk.js"
+    "static/js/main.3e42fd64.chunk.js"
   ]
 }

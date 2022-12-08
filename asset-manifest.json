@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/cryptobby/static/css/main.073c9b0a.css",
-    "main.js": "/cryptobby/static/js/main.6186a186.js",
-    "static/js/787.0c3f432a.chunk.js": "/cryptobby/static/js/787.0c3f432a.chunk.js",
-    "static/media/logo.svg": "/cryptobby/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/cryptobby/static/css/main.1a8aded3.chunk.css",
+    "main.js": "/cryptobby/static/js/main.d6e2455a.chunk.js",
+    "main.js.map": "/cryptobby/static/js/main.d6e2455a.chunk.js.map",
+    "runtime-main.js": "/cryptobby/static/js/runtime-main.34e08a22.js",
+    "runtime-main.js.map": "/cryptobby/static/js/runtime-main.34e08a22.js.map",
+    "static/js/2.89f8c188.chunk.js": "/cryptobby/static/js/2.89f8c188.chunk.js",
+    "static/js/2.89f8c188.chunk.js.map": "/cryptobby/static/js/2.89f8c188.chunk.js.map",
     "index.html": "/cryptobby/index.html",
-    "main.073c9b0a.css.map": "/cryptobby/static/css/main.073c9b0a.css.map",
-    "main.6186a186.js.map": "/cryptobby/static/js/main.6186a186.js.map",
-    "787.0c3f432a.chunk.js.map": "/cryptobby/static/js/787.0c3f432a.chunk.js.map"
+    "static/css/main.1a8aded3.chunk.css.map": "/cryptobby/static/css/main.1a8aded3.chunk.css.map",
+    "static/js/2.89f8c188.chunk.js.LICENSE.txt": "/cryptobby/static/js/2.89f8c188.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.6186a186.js"
+    "static/js/runtime-main.34e08a22.js",
+    "static/js/2.89f8c188.chunk.js",
+    "static/css/main.1a8aded3.chunk.css",
+    "static/js/main.d6e2455a.chunk.js"
   ]
 }

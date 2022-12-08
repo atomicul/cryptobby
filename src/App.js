@@ -1,11 +1,11 @@
-import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import Encrypt from "./encrypt/Encrypt";
 import RedirectTo from "./RedirectTo";
 import Decode from "./decode/Decode";
 import SetKey from "./SetKey";
 import "./global.css";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/cryptobby",
     element: <RedirectTo path="/cryptobby/encrypt" />,
